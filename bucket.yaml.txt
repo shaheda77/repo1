@@ -1,0 +1,12 @@
+AWSTemplateFormatVersion: 2010-09-09
+Resources:
+ Ec2Instance:
+  Type: AWS::EC2::Instance
+  Properties:
+    InstanceType:
+      Ref: InstanceTypeParameter1
+    ImageId: ami-0cff7528ff583bf9a
+Parameters:
+  InstanceTypeParameter1:
+    Type: String
+    Default: t2.micro

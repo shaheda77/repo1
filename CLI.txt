@@ -1,0 +1,8 @@
+List of Buckets: aws s3 ls
+to make a bucket: aws s3 mb s3://bucket-name
+to remove empty bucket: aws s3 rb s3://bucket-name
+to remove bucket including files: aws s3 rb s3://bucket-name --force 
+NOTE: bucket will not remove when versioning is enable 
+to delete only files in bucket: aws s3 rm s3://bucket-name --recursive
+to copy files from bucket to server: aws s3 cp url... .
+to copy files from server to bucket: aws s3 cp filename s3://bucket-name
