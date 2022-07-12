@@ -6,3 +6,5 @@ NOTE: bucket will not remove when versioning is enable
 to delete only files in bucket: aws s3 rm s3://bucket-name --recursive
 to copy files from bucket to server: aws s3 cp url... .
 to copy files from server to bucket: aws s3 cp filename s3://bucket-name
+
+this is about cli featurtes in bucket
